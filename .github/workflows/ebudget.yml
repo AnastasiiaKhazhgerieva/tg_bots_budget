@@ -1,3 +1,5 @@
+name: ebudget to Tg
+
 on:
   schedule:
     # 09:00 UTC = 12:00 MSK
