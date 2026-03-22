@@ -26,5 +26,5 @@ jobs:
     - name: Run budget telegram script
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID_ebudget }}
       run: python telegram_budget.py
