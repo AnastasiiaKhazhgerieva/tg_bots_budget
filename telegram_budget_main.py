@@ -6,7 +6,7 @@ import sys
 from io import BytesIO
 
 BUDGET_TXT_URL = "http://45.8.250.108/budget_updates.txt"
-ROUTINE_XLSX_URL = "https://45.8.250.108/main_routine_tg_msg.xlsx"
+ROUTINE_XLSX_URL = "http://45.8.250.108/main_routine_tg_msg.xlsx"
 
 DASH_MSG = "<a href='http://45.8.250.108/index.html'>Dashboard</a> обновлен."
 SLIDES_MSG = ("Обновлены слайды: для "
