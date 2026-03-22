@@ -1,5 +1,3 @@
-name: Бюджет → Telegram
-
 on:
   schedule:
     # 09:00 UTC = 12:00 MSK
@@ -27,4 +25,4 @@ jobs:
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID_e_budget }}
-      run: python telegram_budget.py
+      run: python telegram_ebudget.py
