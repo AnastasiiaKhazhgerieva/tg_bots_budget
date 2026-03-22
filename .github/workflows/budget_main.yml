@@ -1,3 +1,5 @@
+name: Budget main to Tg
+
 on:
   workflow_dispatch:
   schedule:
