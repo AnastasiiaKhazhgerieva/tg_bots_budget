@@ -2,8 +2,8 @@ name: Бюджет → Telegram
 
 on:
   schedule:
-    # 06:30 UTC = 09:30 MSK (после сервера 06:00)
-    - cron: '30 6 * * *'
+    # 09:00 UTC = 12:00 MSK
+    - cron: '00 9 * * *'
   workflow_dispatch:  # Ручной запуск
 
 jobs:
