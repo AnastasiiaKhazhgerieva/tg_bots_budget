@@ -2,8 +2,8 @@ name: ebudget to Tg
 
 on:
   schedule:
-    # 09:00 UTC = 12:00 MSK
-    - cron: '00 9 * * *'
+    # 01:17 UTC = 04:17 MSK
+    - cron: '17 1 * * *'
   workflow_dispatch:  # Ручной запуск
 
 jobs:
