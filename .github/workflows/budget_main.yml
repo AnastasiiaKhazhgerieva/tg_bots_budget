@@ -3,7 +3,7 @@ name: Budget main to Tg
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 7 * * *"  # каждый день в 10:00 MSK
+    - cron: "57 1 * * *"  # каждый день в 04:57 MSK
 
 jobs:
   send-budget-update:
